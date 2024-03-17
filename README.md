@@ -13,7 +13,7 @@ The application is divided into two main parts (architecture-wise): the backend 
 
 ## Backend
 It is built with Python and uses the OpenAI GPT-3.5 model to generate responses to user queries. The backend is responsible for processing user inputs and generating appropriate responses. The main file is backend_app.py, and it uses the HomeAssist class from model.py to interact with the AI model.
-The LLM model is backed by Pinecone, a vector database that allows for fast and efficient similarity search for our knowledge base.
+The LLM model is backed RAG to etrieve relevant information from a provided knowledge base, and by Pinecone, a vector database that allows for fast and efficient similarity search for our knowledge base.
 
 *TODO*: To integrate Langchain agent for accessing a broader knowledge base, e.g. with Google search capability.
 
