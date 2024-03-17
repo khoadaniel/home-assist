@@ -1,0 +1,13 @@
+services:
+  homeassist_frontend:
+    #this is the docker file path
+    build: ./frontend
+    ports:
+      - 8111:8111
+  homeassist_backend:
+    build: ./backend
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - PINECONE_API_KEY=${PINECONE_API_KEY}    
+    ports:
+      - 8112:8112
