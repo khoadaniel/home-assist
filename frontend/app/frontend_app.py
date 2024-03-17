@@ -85,8 +85,11 @@ if st.session_state.messages[-1]["role"] != "ai":
                 print("Failed to make request. Status code:",
                       response.status_code)
 
-            # Print the AI message to Streamlit
-            st.write(ai_msg.content)
+            try:
+                # Print the AI message to Streamlit
+                st.write(ai_msg.content)
+            except:
+                st.write("Sorry, I am not able to answer this question.")
 
             # Save the chat history in the session state
             new_ai_message = {"role": "ai", "content": ai_msg.content}

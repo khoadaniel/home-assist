@@ -28,6 +28,7 @@ class HomeAssist:
 
         system_prompt_template = """You are an assistant for question-answering tasks. \
         Use the following pieces of retrieved context to answer the question. \
+        If you're using the provided context as your source of information, please quote the source at the end of your answer. \
         If you don't know the answer, just say that you don't know and ask the user (human) to contact the authorities for more information.
 
         {context}"""
