@@ -1,0 +1,12 @@
+openai 
+langchain
+langchain-openai
+langchain_pinecone
+langsmith
+pydantic
+pinecone-client
+streamlit
+fastapi
+uvicorn
+pypdf
+python-dotenv
