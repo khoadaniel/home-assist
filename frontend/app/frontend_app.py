@@ -11,16 +11,29 @@ st.set_page_config(
 )
 
 
-st.title("Home Assist: Your AI Assistant for Settlement in Germany")
+st.title("HomeAssist: Your AI Assistant for Settlement in Germany")
 
-st.sidebar.write(
-    """This Chatbot leverages RAG with GPT-3.5 to answer questions.""")
+st.sidebar.markdown("**About HomeAssist**")
 
 st.sidebar.image(
     "./img/sidebar_img.jpg",
     # width=300,
     caption="Brandenburger Tor | Photo: Daniel Le"
 )
+
+st.sidebar.write(
+    """I am new to Germany myself and as a newcomer, I have faced all the challenges of settling in a new country. \
+        One of the biggest parts of feeling at home is having a home and that is why I designed this tool to help all \
+        those venturing into the German housing and rental market for the first time. What to consider when applying to a landlord? \
+        Why do I need to pay TV license fees? What on earth is "Mülltrennung"? This simple tool is here to help you with all these questions and more. \
+        This is your Home Assist in Germany!""")
+
+
+st.sidebar.write(
+    """This Chatbot leverages RAG with GPT-3.5 to answer your questions.
+    This is an open-source project and you can find the code on [GitHub](https://github.com/khoadaniel/home-assist). \
+    If you have any questions, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/khoadaniel/).""")
+
 
 # Initialize the chat history in the session state
 if "chat_history" not in st.session_state.keys():
