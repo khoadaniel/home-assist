@@ -6,6 +6,8 @@
 
 `Home Assist` is a personal project designed to assist refugees, migrants, and expats who are moving to Germany. The main goal of this project is to simplify the settlement process in Germany, with a particular focus on housing-related topics.
 
+This is an `on-going` project, and the current version is a prototype that provides general information and assistance on various topics, such as finding accommodation, understanding the rental market, and dealing with landlords. The project uses the OpenAI GPT-3.5 model with the employment of RAG (Retrieval-Augmented Generation) to retrieve relevant information from a provided knowledge base and generate responses to user queries.
+
 ## Project Structure
 The application is divided into two main parts (architecture-wise): the backend and the frontend.
 
