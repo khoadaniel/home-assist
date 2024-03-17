@@ -49,7 +49,7 @@ class HomeAssist:
 
         embedder = OpenAIEmbeddings(model="text-embedding-ada-002")
 
-        INDEX_NAME = "chatbot"
+        INDEX_NAME = "homeassist"
         retriever = PineconeVectorStore(index_name=INDEX_NAME,
                                         embedding=embedder).as_retriever(
             search_type="similarity",
