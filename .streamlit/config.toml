@@ -1,0 +1,6 @@
+[theme]
+base = "light"
+# font = "serif"
+
+[server]
+port = 8111
