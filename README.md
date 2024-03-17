@@ -1,4 +1,4 @@
-# [Home Assist](http://18.199.129.28:8111/)
+# Home Assist | [at-home-in-germany.com](http://at-home-in-germany.com/)
 
 ![Brandenburger Tor | Photo: Daniel Le](frontend/img/sidebar_img.jpg)
 *Brandenburger Tor | Photo: Daniel Le*
