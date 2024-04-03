@@ -61,6 +61,7 @@ class HomeAssist:
             # This RunnablePassthrough will make sure that besides the output of it,
             # the k:v pairs in the original inputs are passed through too.
             RunnablePassthrough.assign(
+                # This line means -> make a k:v = context : (summarize_questions | retriever)
                 context=summarize_questions | retriever
             )
             | main_prompt
