@@ -57,4 +57,4 @@ This project is intended to provide general information and assistance to indivi
 This project uses the OpenAI GPT-3.5 model for generating responses. The use of this model is subject to the terms and conditions of OpenAI.
 
 ## Contact
-For any questions or feedback, please reach out to me at khoadaniel@example.com.
+For any questions or feedback, please reach out to me at khoadaniel@gmail.com.
