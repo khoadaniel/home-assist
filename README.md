@@ -1,8 +1,5 @@
 # Home Assist | [at-home-in-germany.com](http://at-home-in-germany.com/)
 
-![Brandenburger Tor | Photo: Daniel Le](frontend/img/sidebar_img.jpg)
-*Brandenburger Tor | Photo: Daniel Le*
-<br>
 
 `Home Assist` is a personal project designed to assist refugees, migrants, and expats who are moving to Germany. The main goal of this project is to simplify the settlement process in Germany, with a particular focus on housing-related topics.
 
